@@ -14,7 +14,7 @@ ___
 
 __项目各文件的介绍__
 
-(./xuelang_classifier.py)
+[xuelang_classifier.py](./xuelang_classifier.py)
 :分类器模型，定义了一个基于ResNet50的网络结构。
 
 
