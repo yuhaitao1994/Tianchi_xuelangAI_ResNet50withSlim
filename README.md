@@ -17,4 +17,24 @@ __项目各文件的介绍__
 [xuelang_classifier.py](./xuelang_classifier.py)
 :分类器模型，定义了一个基于ResNet50的网络结构。
 
+[xuelang_imagePreprocess.py](./xuelang_imagePreprocess.py)
+:写了一些图像预处理函数
+
+[xuelang_xmlProcess.py](./xuelang_xmlProcess.py)
+:写了一些xml文档处理函数，xml文档存放目标检测信息
+
+[xuelang_generateRecord.py](./xuelang_generateRecord.py)
+:生成TFrecord，读取record到slim.dataset
+
+[xuelang_train.py](./xuelang_train.py)
+:训练
+
+[xuelang_test.py](./xuelang_test.py)
+:测试
+
+[read_model_variables.py](./read_model_variables.py)
+:读取存储模型的参数名
+
+
+
 
